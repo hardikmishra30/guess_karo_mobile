@@ -1,0 +1,28 @@
+{
+  "expo": {
+    "name": "Guess Karo",
+    "slug": "guesskaro",
+    "version": "1.0.0",
+    "orientation": "default",
+    "userInterfaceStyle": "automatic",
+    "android": {
+      "package": "com.yourname.guesskaro",
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS",
+        "android.permission.FOREGROUND_SERVICE",
+        "android.permission.FOREGROUND_SERVICE_MEDIA_PLAYBACK"
+      ]
+    },
+    "plugins": [
+      "expo-audio",
+      "expo-asset",
+      "expo-status-bar"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "831df3ea-6aba-4de7-9892-dd4745392ba7"
+      }
+    }
+  }
+}
